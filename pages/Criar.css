@@ -1,0 +1,35 @@
+.file-input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #050606;
+    border-radius: 9999px;
+    border: none;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.file-input:hover,
+.file-input:focus {
+    background-color: #314343;
+    transition: all 0.5s ease-in-out;
+}
+
+.file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-input label {
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+  }
