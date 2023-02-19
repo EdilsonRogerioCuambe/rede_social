@@ -11,6 +11,7 @@ const Mensagem = ({ usuario, fotoUsuario, imagem, texto, data, curtidas, comenta
                 className="flex justify-between items-center"
             >
                 <Image
+                    alt='Foto de perfil'
                     src={fotoUsuario}
                     width={40}
                     height={40}
@@ -22,6 +23,7 @@ const Mensagem = ({ usuario, fotoUsuario, imagem, texto, data, curtidas, comenta
                 className="w-[400px] h-[250px] rounded-md relative mb-3"
             >
                 <Image
+                    alt='Foto de perfil'
                     src={imagem}
                     layout="fill"
                     objectFit="cover"

@@ -12,10 +12,10 @@ const Nav = () => {
 
     return (
         <nav
-            className='text-black flex my-4 justify-between items-center max-w-6xl mx-auto'
+            className='text-black flex my-4 justify-between items-center max-w-6xl mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-7xl'
         >
             <Link
-                className='hover:scale-110 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg p-3 border-2 border-black rounded-md'
+                className='hover:scale-110 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg mt-5 p-3 border-2 border-black rounded-md'
                 href="/">
                 <button>
                     Social Spot

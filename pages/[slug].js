@@ -121,10 +121,9 @@ const Publicacao = () => {
             >
                 <h2>Comentarios</h2>
                 {
-                    todosComentarios.map((comentario, idx) => (
+                    Array.isArray(todosComentarios) && todosComentarios.map((comentario, idx) => (
                         <div className='bg-white rounded-md shadow-xl mt-2'
-                            key={idx}
-                        >
+                            key={idx}>
                             <div
                                 className='flex px-4 py-2 mt-4 w-[450px]'
                             >
